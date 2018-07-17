@@ -12,6 +12,7 @@ import design.pattern.strategy.todo.duck.WildDuck;
 4. Add WoodenDuck
 5. Is WoodenDuck doing a noise?
 6. Is WoodenDuck flying?
+7. Let's all ducks which are 
  */
 public class AppStrategy {
     public static void main(String[] args) {
