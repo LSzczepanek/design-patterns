@@ -13,7 +13,7 @@ public class Forecast {
         LOGGER = LoggerFactory.getLogger(this.getClass());
     }
 
-    public void update(float temp, float humidity, float pressure) {
+    public void update(float pressure) {
         lastPressure = currentPressure;
         currentPressure = pressure;
         display();

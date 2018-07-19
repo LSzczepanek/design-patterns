@@ -15,7 +15,7 @@ public class Statistics {
         LOGGER = LoggerFactory.getLogger(this.getClass());
     }
 
-    public void update(float temp, float humidity, float pressure) {
+    public void update(float temp) {
         tempSum += temp;
         numReadings++;
 

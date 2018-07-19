@@ -13,7 +13,7 @@ public class CurrentStatus  {
         LOGGER = LoggerFactory.getLogger(this.getClass());
     }
 
-    public void update(float temp, float humidity, float pressure) {
+    public void update(float temp, float humidity) {
         this.temp = temp;
         this.humidity = humidity;
         display();

@@ -18,6 +18,6 @@ public class WeatherData {
         this.humidity = humidity;
         this.pressure = pressure;
 
-        currentStatus.update(this.temp, this.humidity, this.pressure);
+        currentStatus.update(this.temp, this.humidity);
     }
 }
